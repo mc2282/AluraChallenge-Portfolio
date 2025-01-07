@@ -36,7 +36,7 @@ header {
 #navbar {
     display: flex;
     flex-direction: row;
-    justify-items: flex-end;
+    justify-content: space-between;
 }
 
 #navbar_logo {
@@ -50,7 +50,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    justify-content: center;
+
     align-items: center;
 }
 
@@ -99,6 +99,10 @@ section {
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--background-color2);
+}
+
+.link_red {
+    width: 100px;
 }
 
 /* Skills y hobbies */
